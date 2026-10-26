@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hair Candy Salon — Jaypee Greens, Greater Noida | Hair, Skin, Bridal & Nails</title>
+<meta name="description" content="Hair Candy Salon, Jaypee Greens Greater Noida. Hair styling & colour, skin & facials, bridal makeup, nails and spa — all services in one place. Book on WhatsApp.">
+<style>
+  :root{
+    --plum:#6d214f; --rose:#e75480; --rose-soft:#fdeef3; --cream:#fff9f5;
+    --ink:#2b2230; --muted:#7a6b78; --card:#ffffff; --line:#f3d9e2;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',Arial,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+  a{text-decoration:none}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  header{position:sticky;top:0;background:rgba(255,249,245,.95);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);z-index:50}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+  .logo{font-family:Georgia,serif;font-size:1.5rem;font-weight:700;color:var(--plum);letter-spacing:.5px}
+  .logo span{color:var(--rose)}
+  .nav .loc{font-size:.85rem;color:var(--muted)}
+  .btn{display:inline-block;padding:11px 22px;border-radius:30px;font-weight:600;font-size:.95rem;transition:.2s}
+  .btn-wa{background:#25d366;color:#fff}
+  .btn-wa:hover{background:#1eb857}
+  .btn-rose{background:var(--rose);color:#fff}
+  .btn-rose:hover{background:#d63f6e}
+  .btn-ghost{border:2px solid var(--rose);color:var(--rose);background:transparent}
+  .hero{background:linear-gradient(135deg,#6d214f 0%,#a03060 55%,#e75480 100%);color:#fff;padding:74px 0 64px;text-align:center}
+  .hero .tag{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);padding:5px 16px;border-radius:20px;font-size:.83rem;letter-spacing:1px;text-transform:uppercase}
+  .hero h1{font-family:Georgia,serif;font-size:2.7rem;line-height:1.2;margin:20px 0 14px}
+  .hero p{max-width:620px;margin:0 auto 28px;font-size:1.08rem;opacity:.94}
+  .hero .cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .hero .btn-ghost{border-color:#fff;color:#fff}
+  section{padding:56px 0}
+  .sec-head{text-align:center;margin-bottom:34px}
+  .sec-head h2{font-family:Georgia,serif;font-size:2rem;color:var(--plum)}
+  .sec-head p{color:var(--muted);margin-top:6px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px;box-shadow:0 4px 14px rgba(109,33,79,.05)}
+  .card .ico{width:52px;height:52px;border-radius:14px;background:var(--rose-soft);display:flex;align-items:center;justify-content:center;font-size:1.55rem;margin-bottom:14px}
+  .card h3{color:var(--plum);font-size:1.15rem;margin-bottom:8px}
+  .card ul{list-style:none;color:var(--muted);font-size:.95rem}
+  .card ul li{padding:3px 0;border-bottom:1px dashed #f6e3ea}
+  .card ul li:last-child{border-bottom:none}
+  .note-strip{margin-top:24px;background:var(--rose-soft);border:1px dashed var(--rose);border-radius:12px;padding:16px 20px;text-align:center;color:var(--plum);font-size:.97rem}
+  .offers{background:linear-gradient(120deg,#fdf3e3,#fdeef3);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .offer-box{max-width:760px;margin:0 auto;text-align:center}
+  .offer-box h2{font-family:Georgia,serif;font-size:1.9rem;color:var(--plum);margin-bottom:10px}
+  .offer-box p{color:#5c4a56;margin-bottom:22px}
+  .why{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;text-align:center}
+  .why .item{padding:10px}
+  .why .item .big{font-size:2rem}
+  .why h3{color:var(--plum);margin:10px 0 6px;font-size:1.05rem}
+  .why p{color:var(--muted);font-size:.94rem}
+  .visit{background:#fff;border:1px solid var(--line);border-radius:18px;padding:34px;display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:center}
+  .visit h2{font-family:Georgia,serif;color:var(--plum);font-size:1.7rem;margin-bottom:10px}
+  .visit p{color:var(--muted)}
+  .visit .cta-col{display:flex;flex-direction:column;gap:12px;align-items:stretch;text-align:center}
+  footer{background:var(--plum);color:#f6dbe7;text-align:center;padding:30px 20px;font-size:.9rem}
+  footer .demo-note{margin-top:8px;font-size:.8rem;opacity:.75}
+  .float-wa{position:fixed;right:18px;bottom:18px;width:58px;height:58px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.7rem;box-shadow:0 6px 18px rgba(0,0,0,.25);z-index:60}
+  @media(max-width:640px){.hero h1{font-size:2rem}.visit{grid-template-columns:1fr}.nav .loc{display:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="logo">Hair <span>Candy</span></div>
+    <div class="loc">Jaypee Greens · Greater Noida</div>
+    <a class="btn btn-wa" href="https://wa.me/919871915551?text=Hi%20Hair%20Candy!%20I%20want%20to%20book%20an%20appointment." target="_blank" rel="noopener">Book on WhatsApp</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="tag">Hair · Skin · Bridal · Nails</span>
+    <h1>Great hair days<br>start here.</h1>
+    <p>Hair Candy Salon, Jaypee Greens — Greater Noida's neighbourhood destination for hair styling, colour, skin care, bridal makeup and nails. Every service, one page, one tap to book.</p>
+    <div class="cta-row">
+      <a class="btn btn-wa" href="https://wa.me/919871915551?text=Hi%20Hair%20Candy!%20I%20want%20to%20book%20an%20appointment." target="_blank" rel="noopener">📲 Book Appointment</a>
+      <a class="btn btn-ghost" href="#services">View Services</a>
+    </div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Our Services</h2>
+      <p>The full Hair Candy menu — everything we do, in one place.</p>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <div class="ico">✂️</div>
+        <h3>Hair Styling & Cuts</h3>
+        <ul>
+          <li>Signature haircuts & styling</li>
+          <li>Blowouts & occasion styling</li>
+          <li>Keratin & smoothening</li>
+          <li>Hair spa & deep conditioning</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="ico">🎨</div>
+        <h3>Hair Colour</h3>
+        <ul>
+          <li>Global colour & root touch-up</li>
+          <li>Balayage & highlights</li>
+          <li>Fashion shades</li>
+          <li>Grey coverage</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="ico">✨</div>
+        <h3>Skin & Facials</h3>
+        <ul>
+          <li>Signature facials & clean-ups</li>
+          <li>De-tan & brightening</li>
+          <li>Waxing & threading</li>
+          <li>Bleach & polishing</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="ico">👰</div>
+        <h3>Bridal & Party Makeup</h3>
+        <ul>
+          <li>Bridal makeup packages</li>
+          <li>Engagement & reception looks</li>
+          <li>Party makeup & hairstyling</li>
+          <li>Pre-bridal packages</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="ico">💅</div>
+        <h3>Nails</h3>
+        <ul>
+          <li>Manicure & pedicure</li>
+          <li>Nail extensions</li>
+          <li>Gel polish & nail art</li>
+          <li>Nail care treatments</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="ico">🧖</div>
+        <h3>Spa & Relaxation</h3>
+        <ul>
+          <li>Head & shoulder massage</li>
+          <li>Body polishing</li>
+          <li>Aromatherapy rituals</li>
+          <li>Complete pamper packages</li>
+        </ul>
+      </div>
+    </div>
+    <div class="note-strip">
+      💡 <strong>Prices?</strong> We keep our rates personal, not public. Tap any WhatsApp button and ask — we reply with the exact price for the service you want, in seconds.
+    </div>
+  </div>
+</section>
+
+<section class="offers">
+  <div class="wrap">
+    <div class="offer-box">
+      <h2>🎁 This Month's Offers</h2>
+      <p>Our offers keep changing — seasonal combos, festival specials and member deals. The latest offers are always one message away.</p>
+      <a class="btn btn-rose" href="https://wa.me/919871915551?text=Hi%20Hair%20Candy!%20Please%20share%20your%20latest%20offers." target="_blank" rel="noopener">Get Latest Offers on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Why Hair Candy?</h2>
+    </div>
+    <div class="why">
+      <div class="item">
+        <div class="big">💇‍♀️</div>
+        <h3>Stylists Who Listen</h3>
+        <p>We start with a consultation, not a chair. Your hair type and lifestyle decide the cut — not a catalogue photo.</p>
+      </div>
+      <div class="item">
+        <div class="big">📍</div>
+        <h3>Right in Jaypee Greens</h3>
+        <p>No crossing the city for a good salon. We're in your neighbourhood, with easy appointments on WhatsApp.</p>
+      </div>
+      <div class="item">
+        <div class="big">📲</div>
+        <h3>Book in One Tap</h3>
+        <p>No waiting on calls. Pick your service, message us, get your slot confirmed — done in under a minute.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="visit">
+      <div>
+        <h2>Visit Us</h2>
+        <p><strong>Hair Candy Salon</strong><br>
+        Jaypee Greens, Greater Noida<br>
+        Open all days · Walk-ins welcome<br>
+        📞 +91 98719 15551</p>
+      </div>
+      <div class="cta-col">
+        <a class="btn btn-wa" href="https://wa.me/919871915551?text=Hi%20Hair%20Candy!%20I%20want%20to%20book%20an%20appointment." target="_blank" rel="noopener">📲 Book on WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+919871915551">📞 Call the Salon</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>Hair Candy Salon · Jaypee Greens, Greater Noida · +91 98719 15551</div>
+  <div class="demo-note">Concept demo homepage prepared for Hair Candy Salon by Mauhnish — Webxpert.ai. Sample only, not the official website.</div>
+</footer>
+
+<a class="float-wa" href="https://wa.me/919871915551?text=Hi%20Hair%20Candy!%20I%20want%20to%20book%20an%20appointment." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+
+</body>
+</html>
